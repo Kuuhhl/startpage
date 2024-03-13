@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	font-family: "JetBrains Mono", monospace;
+	backdrop-filter: blur(2px);
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+#bookmarks {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	align-items: center;
+	text-align: center;
+	list-style-type: none; /* Removes bullet points */
+	padding: 0; /* Removes default padding */
+}
+
+#bookmarks a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#clock {
+	color: white;
+	font-size: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateX(-1ch);
+}
+
+#seconds-container {
+    position: relative;
+}
+.seconds {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+
+.fade {
+	opacity: 0;
+}
