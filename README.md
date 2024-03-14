@@ -36,3 +36,7 @@ You can use a script to automatically sync the wallpaper and colors to your main
 2. Open `index.html` to edit your links.
 3. Host it as a static website on `localhost`.
 4. Set it as homepage in your browser and as a new tab page using the [New Tab](https://addons.mozilla.org/en-US/firefox/addon/newtab-ext/)-extension.
+
+## Note
+
+If the image should not be resized to cover the entire window, just give it a file name starting with `nr`.
